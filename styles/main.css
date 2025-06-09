@@ -1,0 +1,109 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: linear-gradient(135deg, #ffb6e6 0%, #ff69b4 100%);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3.2em;
+    letter-spacing: 2.5px;
+    text-shadow: 0 2px 18px #e75480;
+    margin-bottom: 28px;
+    margin-top: 0;
+    font-weight: 800;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    gap: 18px;
+}
+
+.clock {
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid #ff69b4;
+    border-radius: 18px;
+    padding: 32px 40px;
+    margin: 0;
+    box-shadow: 0 8px 32px 0 rgba(255, 105, 180, 0.25), 0 1.5px 8px #ffb6e6 inset;
+    text-align: center;
+    width: 320px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    transition: box-shadow 0.3s;
+}
+
+.clock:hover {
+    box-shadow: 0 12px 40px 0 rgba(255, 105, 180, 0.35), 0 2px 12px #ffb6e6 inset;
+}
+
+.clock h2 {
+    font-size: 2em; /* um pouco maior */
+    margin: 0 0 12px 0;
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: 0 2px 18px #e75480;
+    font-weight: 800;
+}
+
+.time {
+    font-size: 3em;
+    color: #fff;
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    background: linear-gradient(90deg, #ff69b4 0%, #ffb6e6 100%);
+    padding: 10px 24px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px #ff69b4, 0 0 4px #fff inset;
+    letter-spacing: 0.18em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 12px #fff, 0 0 4px #ff69b4;
+    border: 1.5px solid #fff;
+}
+
+.date {
+    color: #fff;
+    font-size: 1.4em; /* aumentado de 1.1em para 1.4em */
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    margin-top: 6px;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 6px #ffb6e6;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 0 1px 8px #ff69b4;
+}
+
+#city-select {
+    margin-top: 18px;
+    align-self: center;
+    padding: 10px 16px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: 2px solid #ff69b4;
+    background: #fff0fa;
+    color: #e75480;
+    outline: none;
+    font-family: 'Montserrat', Arial, sans-serif;
+    box-shadow: 0 2px 8px #ffb6e6;
+    transition: border 0.2s;
+}
+
+#city-select:focus {
+    border: 2px solid #e75480;
+}
