@@ -1,5 +1,5 @@
 # Relógio Mundial
-Este projeto é um site em tons de rosa que mostra um relógio digital centralizado. O usuário pode escolher entre várias cidades do mundo para ver a hora local, e o relógio já abre automaticamente mostrando o horário da região do visitante. O visual é responsivo, estilizado com gradiente rosa, fontes modernas e destaque para o nome do local e a data.
+Meu sétimo projeto é um site em tons de rosa que mostra um relógio digital centralizado. O usuário pode escolher entre várias cidades do mundo para ver a hora local, e o relógio já abre automaticamente mostrando o horário da região do visitante. O visual é responsivo, estilizado com gradiente rosa, fontes modernas e destaque para o nome do local e a data.
 
 # Linguagens utilizadas:
 
